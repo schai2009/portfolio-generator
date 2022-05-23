@@ -17,4 +17,3 @@ module.exports = (name, github) => {
   </html>
   `;
 };
-module.exports("Steven", "schai2009")  
