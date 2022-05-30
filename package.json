@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/schai2009/portfolio-generator#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "until": "^0.1.1"
   }
 }
