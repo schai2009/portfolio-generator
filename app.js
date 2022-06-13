@@ -137,25 +137,6 @@ Add a New Project
 
 promptUser()
   .then(promptProject)
-<<<<<<< HEAD
-  .then(portfolioData => {
-    return generatePage(portfolioData);
-  })
-  .then(pageHTML => {
-    return writeFile(pageHTML);
-  })
-  .then(writeFileResponse => {
-    console.log(writeFileResponse);
-    return copyFile();
-  })
-  .then(copyFileResponse => {
-    console.log(copyFileResponse);
-  })
-  .catch(err => {
-    console.log(err);
-  });
-
-=======
   .then((portfolioData) => {
     return generatePage(portfolioData);
   })
@@ -172,4 +153,3 @@ promptUser()
   .catch((err) => {
     console.log(err);
   });
->>>>>>> develop
